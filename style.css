@@ -1,0 +1,82 @@
+/* /******* General styling ********\ */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTgwOTN8MHwxfHNlYXJjaHwyfHxuYXR1cmV8ZW58MHx8fHwxNjY3NjU2NDAy&ixlib=rb-4.0.3&q=80&w=1080) no-repeat center center/cover;
+    
+
+
+}
+
+main{
+    /* background-color: red; */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+header{
+    margin-bottom: 21rem;
+    border: 2px solid #000;
+    color: #fff;
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    transition: 0.4s;
+
+}
+
+header:hover{
+    border-color: #fff;
+    color: #000;
+}
+
+section{
+    padding: 2rem 1rem;
+    border-radius: 0.625rem;
+    width: 50% ;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+
+#text{
+    border-radius: 0.625rem; 
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.4s;
+}
+
+#text:hover{
+    color: green;
+}
+
+#person{
+    color: red;
+    font-size: 1.3rem;
+    margin-top: 0.625rem;
+}
+button{
+    margin-top: 0.625rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+
+}
+
+button:active, button:hover{
+    background-color: skyblue;
+}
