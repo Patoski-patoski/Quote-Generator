@@ -1,8 +1,13 @@
+//****** Calling the Variables *****//
+
 let textQuote = document.querySelector('#text');
 let author = document.querySelector('#person');
 let btn = document.querySelector('button'); 
 
-const quotes = [
+
+//****** Assigning the setQuotes and the author *****//
+
+const setQuotes = [
     {
         quote: `"God's Word is not a book of human ideas ... it is given to us by [God] to teach us how to live." `,
         person: `Billy Graham`,
@@ -118,28 +123,24 @@ const quotes = [
         person: ` Billy Graham `
     },
     {
-        quote: `.`,
+        quote: `"Teach the little ones the whole truth and nothing but the truth."`,
         person: ` Charles Spurgeon `
     },
     {
-        quote: `.`,
-        person: ` Charles Spurgeon `
+        quote: `"There is no such thing as chance, luck, or accident in the Christian's journey."`,
+        person: ` J.C Ryle `
     },
     {
-        quote: `.`,
-        person: ` -Christopher Gordon `
+        quote: `"All places are places of worship to a Christian. Wherever he is, he ought to be in a worshiping frame of mind".`,
+        person: ` -Charles Spurgeon `
     },
     {
-        quote: `.`,
-        person: ` -Christopher Gordon `
+        quote: `"God is omnipotent but He cannot do the illogical. For example, He can't tell you the colour of number 5. He cant tell you the height of Purple. These are not deficiencies in omnipotence. These are nonsense. & nonsense remains nonsense even when posed to the omnipotent.".`,
+        person: ` -Gideon Odoma `
     },
     {
-        quote: `.`,
-        person: ` -Christopher Gordon `
-    },
-    {
-        quote: `.`,
-        person: ` Charles Spurgeon`
+        quote: `"People do their country more service by pleading for it in prayer than by finding fault with things they have no power to alter.".`,
+        person: ` -John Newton `
     },
     {
         quote: `.`,
@@ -310,19 +311,24 @@ const quotes = [
         person: ` Charles Spurgeon`
     },
     {
-        quote: `.`,
-        person: ` Charles Spurgeon`
+        quote: `"Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me".`,
+        person: ` —John 14:6 `
     },
     {
-        quote: `.`,
-        person: ` Charles Spurgeon`
+        quote: `"You can discover what your enemy fears most by observing the means he uses to frighten you.".`,
+        person: ` - Eric Hoffer`
+    },
+    {
+        quote: `"People do their country more service by pleading for it in prayer than by finding fault with things they have no power to alter".`,
+        person: ` John Newton`
     },
 ]
 
-btn.addEventListener('click', () =>{
-    let random = Math.floor(Math.random()* quotes.length);
 
-    textQuote.innerText = quotes[random].quote;
-    author.innerText = quotes[random].person;
+btn.addEventListener('click', () =>{
+    let random = Math.floor(Math.random()* setQuotes.length);
+
+    textQuote.innerText = setQuotes[random].quote;
+    author.innerText = setQuotes[random].person;
 
 })
