@@ -295,20 +295,23 @@ const setQuotes = [
         person: ` Charles Spurgeon`
     },
     {
-        quote: `.`,
-        person: ` Charles Spurgeon`
+        quote: `"Is there anyone today who is tempted to be cast down about anything? “The joy of the Lord is your strength".`,
+
+        person: ` Amy Carmicheal`
     },
     {
-        quote: `.`,
-        person: ` Charles Spurgeon`
+        quote: `"A believer, at death, will be the happiest loser and the happiest gainer. He will lose his sins; he will gain glory.".`,
+        person: ` —Thomas Watson`
     },
     {
-        quote: `.`,
-        person: ` Charles Spurgeon`
+        quote: `"The floods of care and tribulation may be mighty, but Jesus sits upon the water floods, and is mightier than the waves of the sea. 
+        @JCRyle".`,
+
+        person: ` J.C Ryle `
     },
     {
-        quote: `.`,
-        person: ` Charles Spurgeon`
+        quote: `"O God, give me Scotland or I die."`,
+        person: ` -John Knox..`
     },
     {
         quote: `"Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me".`,
